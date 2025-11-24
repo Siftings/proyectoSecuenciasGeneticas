@@ -22,8 +22,8 @@ string ayudas[NUM_COMANDOS] = {
     "Uso: guardar <archivo>. Guarda las secuencias modificadas.",
     "Uso: codificar <archivo.fabin>. Codifica las secuencias.",
     "Uso: decodificar <archivo.fabin>. Decodifica un archivo .fabin.",
-    "Uso: ruta_mas_corta <desc> <i> <j> <x> <y>. Ruta más corta en el grafo.",
-    "Uso: base_remota <desc> <i> <j>. Busca la base remota más lejana.",
+    "Uso: ruta_mas_corta <desc> <i> <j> <x> <y>. Calcula la ruta mas corta entre dos bases en el grafo.",
+    "Uso: base_remota <desc> <i> <j>. Encuentra la misma base mas lejana en la secuencia.",
     "Uso: ayuda [comando]. Muestra ayuda general o específica.",
     "Uso: salir. Termina el programa."
 };

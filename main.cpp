@@ -1,6 +1,7 @@
 #include "secuencias.h"
 #include "interfaz.h"
 #include "huffman.h"
+#include "grafo.h"
 #include <iostream>
 
 using namespace std;
@@ -69,16 +70,14 @@ int main() {
             if (numPartes != 2) cout << "Error: Uso correcto -> decodificar <archivo.fabin>\n";
             else decodificar(partes[1]);
             
-        // Comandos del Componente 3: 
+        // Comandos del Componente 3: Grafos y rutas
         } else if (comando == "ruta_mas_corta") {
             if (numPartes != 6) cout << "Error: Uso correcto -> ruta_mas_corta <desc> <i> <j> <x> <y>\n";
-            else cout << "Simulación: Ruta más corta desde [" << partes[2] << "," << partes[3]
-                      << "] hasta [" << partes[4] << "," << partes[5] << "] en " << partes[1] << "\n";
+            else ruta_mas_corta(partes[1], partes[2], partes[3], partes[4], partes[5]);
 
         } else if (comando == "base_remota") {
             if (numPartes != 4) cout << "Error: Uso correcto -> base_remota <desc> <i> <j>\n";
-            else cout << "Simulación: Base remota desde [" << partes[2] << "," << partes[3]
-                      << "] en " << partes[1] << "\n";
+            else base_remota(partes[1], partes[2], partes[3]);
 
         // Cualquier otro comando que no se reconozca
         } else {
