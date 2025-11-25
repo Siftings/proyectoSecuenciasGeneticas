@@ -19,3 +19,5 @@ build/%.o: %.cpp
 
 clean:
 	rm -f $(OBJECTS) $(TARGET)
+	rm -r build bin
+
