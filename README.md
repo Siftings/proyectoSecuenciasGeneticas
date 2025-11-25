@@ -25,6 +25,7 @@ make
 ```bash
 ./programa
 ```
+
 ## Componente 1: Operaciones con Secuencias Geneticas
 
 ### Concepto
@@ -74,6 +75,7 @@ Esta matriz se transforma en un grafo donde:
 
 Las funciones princiales utilizan el algoritmo de Dijkstra para encontrar la ruta con mayor y menor peso entre vertices del grafo.
 
+[Video](https://youtu.be/V89FwnB-htI?si=fG4v-x5kHAr2twvb) explicativo del componente 3 
 
 ## Comandos Completos del Sistema
 
